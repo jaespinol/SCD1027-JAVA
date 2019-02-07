@@ -5,6 +5,8 @@
  */
 package javaif;
 
+import java.util.Scanner;
+
 /**
  *
  * @author IngEspino
@@ -16,6 +18,9 @@ public class JavaIF {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Scanner comienzo = new Scanner (System.in);
+        System.out.println();
+        // Hola Mundo
     }
     
 }
