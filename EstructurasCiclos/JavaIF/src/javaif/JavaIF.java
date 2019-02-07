@@ -7,7 +7,6 @@ package javaif;
 
 import java.util.Scanner;
 
-
 /**
  *
  * @author IngEspino
@@ -28,11 +27,7 @@ public class JavaIF {
             System.out.println("Ud. es mayor de Edad !");
         else 
             System.out.println("Ud. es menor de Edad !");
-        
-        
         // Hola Mundo
         
-        
     }
-    
 }
