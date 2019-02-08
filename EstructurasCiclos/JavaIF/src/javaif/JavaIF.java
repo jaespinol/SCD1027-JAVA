@@ -19,7 +19,7 @@ public class JavaIF {
     public static void main(String[] args) {
         // TODO code application logic here
          Scanner comienzo = new Scanner (System.in);
-        
+        Scanner Nom = new Scanner (System.in);
          System.out.println("Ingrese su edad: ");
          int edad = comienzo.nextInt();
          
@@ -27,7 +27,11 @@ public class JavaIF {
             System.out.println("Ud. es mayor de Edad !");
         else 
             System.out.println("Ud. es menor de Edad !");
-        // Hola Mundo
         
+// Hola Mundo
+        System.out.println("Cual es tu Nombre ");
+         String Nombre = Nom.nextLine();
+         System.out.println("Hola " + Nombre);
+         
     }
 }
