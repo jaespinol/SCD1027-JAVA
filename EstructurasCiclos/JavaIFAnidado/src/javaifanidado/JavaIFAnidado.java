@@ -46,6 +46,33 @@ public class JavaIFAnidado {
                     if (imc > 30) {
                         System.out.println("El peso del paciente sufre de Obesidad");
         }
+        
+        PromedioAlumno();
+        
+    }
+
+    private static void PromedioAlumno() {
+        int N1, N2, N3;
+        Scanner comienzo = new Scanner (System.in);
+        System.out.println("Digite el Primer Numero");
+        N1 = comienzo.nextInt();
+        System.out.println("Digite el Segundo Numero");
+        N2 = comienzo.nextInt();
+        System.out.println("Digite el Tercer Numero");
+        N3 = comienzo.nextInt();
+        
+        int Promedio =(N1+N2+N3)/3;
+        
+        if (Promedio>=10) {
+            System.out.println("El Promedio es: " + Promedio);
+            System.out.println("El Alumno Aprobado");
+        }if (Promedio>=6) {
+            System.out.println("El Promedio es: " + Promedio);
+            System.out.println("El Alumno Aprobado");
+        }if (Promedio<=5) {
+            System.out.println("El Promedio es: " + Promedio);
+            System.out.println("El Alumno Reprobado");
+        }
     }
     
 }
