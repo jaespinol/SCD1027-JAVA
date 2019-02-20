@@ -1,0 +1,21 @@
+Qué es un Layout
+En java, cuando hacemos ventanas, la clase que decide cómo se reparten los botones (Y demás controles) dentro de la ventana se llama Layout. Esta clase es la que decide en qué posición van los botones y demás componentes, si van alineados, en forma de matriz, cuáles se hacen grandes al agrandar la ventana, etc. Otra cosa importante que decide el Layout es qué tamaño es el ideal para la ventana en función de los componentes que lleva dentro.
+
+El Layout null
+Uno de los Layouts más utilizados por la gente que empieza, por ser el más sencillo, es NO usar layout. 
+
+FlowLayout
+El FlowLayout es bastante sencillo de usar. Nos coloca los componente en fila. Hace que todos quepan (si el tamaño de la ventana lo permite). Es adecuado para barras de herramientas, filas de botones, etc.
+
+BoxLayout
+Es como un FlowLayout, pero mucho más completo. Permite colocar los elementos en horizontal o vertical.
+
+GridLayout
+Este pone los componentes en forma de matriz (cuadrícula), estirándolos para que tengan todos el mismo tamaño. El GridLayout es adecuado para hacer tableros, calculadoras en que todos los botones son iguales, etc.
+
+BorderLayout
+El BorderLayout divide la ventana en 5 partes: centro, arriba, abajo, derecha e izquierda.
+
+GridBagLayout
+El GridBagLayout es de los layouts más versátiles y complejos de usar. Es como el GridLayout, pone los componentes en forma de matriz (cuadrícula), pero permite que las celdas y los componentes en ellas tengan tamaños variados.
+
