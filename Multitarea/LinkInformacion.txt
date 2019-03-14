@@ -1,0 +1,5 @@
+Leer para entender el ejercicio.
+
+https://jarroba.com/multitarea-e-hilos-en-java-con-ejemplos-thread-runnable/
+
+https://jarroba.com/multitarea-e-hilos-facil-y-muchas-ventajas/
