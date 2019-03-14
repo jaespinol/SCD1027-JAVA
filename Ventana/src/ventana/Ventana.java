@@ -5,6 +5,7 @@
  */
 package ventana;
 import java.awt.*;
+
 /**
  *
  * @author IngEspino
@@ -15,6 +16,7 @@ public class Ventana extends Frame {
      * @param args the command line arguments
      */
     private Button b1,b2,b3;
+    
     public Ventana(){
         // el constructor del padre recibe el titulo de la ventana
         super("Esta es la Ventana 1");
@@ -37,6 +39,7 @@ public class Ventana extends Frame {
     public static void main(String[] args) {
         // TODO code application logic here
         Ventana v1 = new Ventana();
+       
         Ventana2 v2 = new Ventana2();
     }
     
