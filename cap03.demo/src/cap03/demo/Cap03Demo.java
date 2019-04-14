@@ -20,6 +20,7 @@ public class Cap03Demo {
     /**
      * @param args the command line arguments
      */
+    /* CONSTANTES */
     static final String DB_USER = "root";
     static final String DB_PASSWD = "";
     static final String DB_DRV = "com.mysql.jdbc.Driver";
@@ -36,9 +37,10 @@ public class Cap03Demo {
         try {
             connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWD);
             statement = connection.createStatement();
-            resultSet = statement.executeQuery("SELECT * FROM capitales");
+            resultSet = statement.executeQuery("SELECT * FROM paises");
             while (resultSet.next()) {
-                System.out.printf("%s\t%s\t\n",resultSet.getString(1), resultSet.getString(2),".");
+                System.out.printf("%s\t%s.\t\n", resultSet.getString("capital"), 
+                        resultSet.getString("nombre"));
             }
         } catch (SQLException ex) {
         } finally {

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI-JAVA", "WebAPI-JAVA\WebAPI-JAVA.csproj", "{84F1834D-83CF-4F77-97C3-0BFEFB7DCBC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84F1834D-83CF-4F77-97C3-0BFEFB7DCBC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F1834D-83CF-4F77-97C3-0BFEFB7DCBC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F1834D-83CF-4F77-97C3-0BFEFB7DCBC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F1834D-83CF-4F77-97C3-0BFEFB7DCBC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82A5DA3F-52A3-40AB-8917-EFCE780923FC}
+	EndGlobalSection
+EndGlobal
