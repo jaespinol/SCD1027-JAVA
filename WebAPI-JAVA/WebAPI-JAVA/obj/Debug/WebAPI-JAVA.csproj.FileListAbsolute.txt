@@ -84,3 +84,8 @@ C:\GitHub\SCD1027-JAVA\WebAPI-JAVA\WebAPI-JAVA\obj\Debug\WebAPI-JAVA.csproj.Core
 C:\GitHub\SCD1027-JAVA\WebAPI-JAVA\WebAPI-JAVA\obj\Debug\WebAPI-JAVA.csproj.CopyComplete
 C:\GitHub\SCD1027-JAVA\WebAPI-JAVA\WebAPI-JAVA\obj\Debug\WebAPI-JAVA.dll
 C:\GitHub\SCD1027-JAVA\WebAPI-JAVA\WebAPI-JAVA\obj\Debug\WebAPI-JAVA.pdb
+C:\GitHub\SCD1027-JAVA\WebAPI-JAVA\WebAPI-JAVA\bin\BouncyCastle.Crypto.dll
+C:\GitHub\SCD1027-JAVA\WebAPI-JAVA\WebAPI-JAVA\bin\Google.Protobuf.dll
+C:\GitHub\SCD1027-JAVA\WebAPI-JAVA\WebAPI-JAVA\bin\MySql.Data.dll
+C:\GitHub\SCD1027-JAVA\WebAPI-JAVA\WebAPI-JAVA\bin\Google.Protobuf.xml
+C:\GitHub\SCD1027-JAVA\WebAPI-JAVA\WebAPI-JAVA\bin\MySql.Data.xml
